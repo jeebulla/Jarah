@@ -3,6 +3,9 @@
   flex: 1;
   display: flex;
 }
+#what .container {
+  padding: 1rem;
+}
 #what .items .item {
   text-align: left;
 }

@@ -91,7 +91,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--px);
+  padding: 0 4rem;
   color: #fff;
 }
 
@@ -125,12 +125,13 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
+  padding: 0.5rem;
 }
 
 #header .lead {
   text-align: center;
-  width: 70%;
+  width: 100%;
   text-shadow: 0 0 2px #111;
 }
 
@@ -151,8 +152,12 @@ p {
   align-items: center;
 }
 
+#what .items .item p {
+  width: 95%;
+}
+
 #what .items .item {
-  text-align: center;
+  text-align: left;
   margin: 0.75rem 1rem;
 }
 
@@ -209,10 +214,12 @@ p {
 
 #client .items div {
   flex: 1;
+  margin-top: 0;
 }
 
 #client .items div img {
-  width: 100%;
+  width: 70%;
+  margin: 0.75rem;
 }
 
 /* Contact */
